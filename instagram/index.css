@@ -1,0 +1,143 @@
+ *{
+    margin:0;
+    padding:0;
+ }
+
+ body{
+    width:100vw;
+    height:140vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+ }
+  
+  
+ #main{
+    border:0.1px solid #d9d9d9;
+    width:300px;
+    height:380px;
+    text-align:center;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    transform:scaley(1.05,1.2);
+    
+ }
+ .logo{
+    height:50px;
+    width:50px;
+   
+ }
+ a{
+    text-decoration: none;
+    padding-left:3px;
+ }
+ a[href="/forgot.html"]{
+    text-decoration:none;
+}
+a[href="/forgot.html"]:hover{
+    font-size:1.05em;
+ }
+
+.background{
+    height:30px;
+    width:100%;
+    color:white;
+    background-color: rgb(98, 98, 210);
+    border-radius:5px;
+    border:none;
+    margin-top: 20px;
+}
+.background:hover{
+    background-color:rgb(63, 63, 231);
+}
+h1{
+    font-family: 'satisfy', 'Arial Narrow', Arial, sans-serif;
+    display:flex;
+    align-items:center;
+    
+}
+input{
+    height:27px;
+    padding-left: 2px;
+}
+#checkbox{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.lines{
+    width:33%;
+    height:0.5px;
+    background-color:black;
+    border:none;
+}
+.or{
+    display:inline-block;
+    padding:0px 4px 0px 4px;
+}
+.fb-logo{
+    height:20px;
+    width:20px;
+    vertical-align: bottom;
+}
+.fb-div{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+#sec-main{
+    border:0.1px solid #d9d9d9;
+    width:300px;
+    height:60px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transform:scaley(1.05,1.2);
+    }
+#sec-main a{
+    text-decoration: none;
+}
+.temp{
+    width:380px;
+    height:20px;
+    display:flex;
+    transform:scaley(1.05,1.2);
+}
+.footer{
+    display:flex;
+    justify-content:space-evenly;
+    align-content:center;
+    flex-wrap: wrap;
+}
+p{
+    width:80%;
+    height:50px;
+    display:flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items:center;
+}
+#gplay{
+  width:134.28px;
+  height:40px;
+} 
+#micr{
+  width:110.76px;
+  height:40px;
+}
+footer{
+    margin-top:20px;
+    font-size: 14px;
+    display:flex;
+    justify-content:center;
+}
+footer a{
+    text-decoration: none;
+    padding:0px 6px 0px 6px;
+}
